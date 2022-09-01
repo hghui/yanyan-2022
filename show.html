@@ -25,11 +25,11 @@
         }
 
         .body--ready {
-            background: -webkit-linear-gradient(top, rgb(203, 235, 219) 0%, rgb(55, 148, 192) 120%);
-            background: -moz-linear-gradient(top, rgb(203, 235, 219) 0%, rgb(55, 148, 192) 120%);
-            background: -o-linear-gradient(top, rgb(203, 235, 219) 0%, rgb(55, 148, 192) 120%);
-            background: -ms-linear-gradient(top, rgb(203, 235, 219) 0%, rgb(55, 148, 192) 120%);
-            background: linear-gradient(top, rgb(203, 235, 219) 0%, rgb(55, 148, 192) 120%);
+            background: -webkit-linear-gradient(top, rgb(220, 241, 247) 0%, rgb(255, 210, 234) 120%);
+            background: -moz-linear-gradient(top, rgb(220, 241, 247) 0%, rgb(255, 210, 234) 120%);
+            background: -o-linear-gradient(top, rgb(220, 241, 247) 0%, rgb(255, 210, 234) 120%);
+            background: -ms-linear-gradient(top, rgb(220, 241, 247) 0%, rgb(255, 210, 234) 120%);
+            background: linear-gradient(top, rgb(220, 241, 247) 0%, rgb(255, 210, 234) 120%);
         }
 
         .text {
@@ -48,8 +48,8 @@
             width: 128px;
             background-size: cover;
             border-radius: 200px;
-            box-shadow: 0px 0px 40px rgba(63, 81, 181, 0.72);
-            border: 3px solid #00a0ff;
+            box-shadow: 0px 0px 40px rgba(255, 210, 234, 0.72);
+            border: 3px solid rgba(255, 210, 234, 0.426);
             opacity: 1;
             margin: 0 auto;
             margin-top: 20px;
@@ -100,7 +100,7 @@
     <img src="images/lover.jpg" id="logo">
 </div>
 <canvas class="canvas" width="1820" height="905"></canvas>
-<p class="text" style="color: #ed3073;">
+<p class="text" style="color: #f65b92;">
     We fell in love
     <br/>
     <span id="span_dt_dt"></span>
@@ -133,7 +133,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
             //想说的话
-            S.UI.simulate("左燕|我是|惠光辉|今天|又是|想念|你的一天|#countdown 3|#time");
+            S.UI.simulate("燕燕|今天|又是|爱你|的一天|#countdown 3|#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
